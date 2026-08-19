@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-zinc-800 font-harris-sans;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+  }
+}
+
+@layer utilities {
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.4s ease-out;
+  }
+}
+
+@layer components {
+  .brand-harris {
+    @apply font-harris-serif;
+  }
+
+  .brand-hinge {
+    @apply font-hinge-sans;
+  }
+
+  .accent-harris {
+    @apply text-harris-accent;
+  }
+
+  .accent-hinge {
+    @apply text-hinge-accent;
+  }
+
+  .accent-select {
+    @apply text-select-accent;
+  }
+}
