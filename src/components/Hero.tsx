@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Crown, LayoutGrid, Zap, DollarSign, Wrench, Palette, Trophy, Box, Columns3, Clock, ListChecks, Repeat, Hammer, GitCompareArrows, Award, Droplets, TrendingUp, Ruler, Download } from 'lucide-react';
+import { Crown, LayoutGrid, Zap, DollarSign, Wrench, Palette, Trophy, Box, Columns3, Clock, ListChecks, Repeat, Hammer, GitCompareArrows, Award, Droplets, Ruler, Download } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 type BuyingMode = null | 'semi-custom' | 'local-shop';
@@ -223,7 +223,6 @@ export default function Hero() {
               { label: 'Compare', icon: GitCompareArrows, href: '#comparison' },
               { label: 'Standards', icon: Award, href: '#differentiators' },
               { label: 'ColorDrop', icon: Droplets, href: '#stains' },
-              { label: 'Revenue', icon: TrendingUp, href: '#margin-calculator' },
               { label: 'OptiFit', icon: Ruler, href: '#optifit' },
               { label: 'Downloads', icon: Download, href: '#downloads' },
             ].map((tile) => (
