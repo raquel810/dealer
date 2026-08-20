@@ -192,7 +192,7 @@ export default function Hero() {
                 className="font-hinge-sans text-white/80"
                 style={{ textShadow: '0 2px 6px rgba(0,0,0,0.5)' }}
               >
-                Specify with Confidence.
+                Close with Confidence.
               </span>
             </h1>
             <p
